@@ -1,12 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: User
- * Date: 29.11.2018
- * Time: 19:57
- */
 
-class ControllerMain
+class ControllerMain extends Controller
 {
-
+    public function action_index() {
+        $this->view->page='page_main_index_view';
+        $this->view->render();
+    }
 }

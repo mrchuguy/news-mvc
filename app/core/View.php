@@ -1,12 +1,13 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: User
- * Date: 29.11.2018
- * Time: 19:59
- */
 
 class View
 {
-
+    public $template;
+    public $page;
+    public function __construct() {
+        $this->template = 'template_main_view';
+    }
+    public function render(){
+        include_once 'app/views/'.$this->template.'.php';
+    }
 }
