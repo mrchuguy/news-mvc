@@ -1,4 +1,4 @@
-<form method="post">
+<form method="post" action="/admin/add">
     <label>Title news
         <input type="text" name="name" value="Input title" required>
     </label>
