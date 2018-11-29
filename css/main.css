@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: rgba(21,89,185,0.8);
+    margin: 20px;
+}
+.news {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.news table {
+    flex-basis: 40%;
+    margin: 40px;
+    border-collapse: collapse;
+    border: 1px solid rgba(12,53,185,0.8);
+}
+.news table tr:first-child{
+    background-color: rgba(18,137,185,0.8);
+    border-radius: 15px 15px 0 0;
+}
+.news table tr td{
+    padding: 15px;
+}
+form{
+    margin: 20px;
+    display: flex;
+    width: 500px;
+    justify-content: left;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+form label{
+    flex-basis: 100%;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+form label input, form label textarea{
+    flex-basis: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+form label textarea{
+    height: 100px;
+}
+form input[type="submit"]{
+    margin: 10px;
+    font-weight: bold;
+    padding: 10px 40px;
+    background-color: rgba(8, 70, 185, 0.8);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: black 1px 1px 2px 1px;
+}
