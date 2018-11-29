@@ -3,7 +3,7 @@
     <?php foreach ($this->data as $news_item):?>
         <table>
             <tr>
-                <td class="title"><?= $news_item['title'] ?></td>
+                <td class="title"><?= $news_item['name'] ?></td>
                 <td class="date"><?= date('d.m.y H:i' ,$news_item['date']) ?></td>
             </tr>
             <tr>
