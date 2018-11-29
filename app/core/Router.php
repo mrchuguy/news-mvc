@@ -2,7 +2,7 @@
 
 class Router {
     static public function start(){
-        $controller_name = 'main';
+        $controller_name = 'news';
         $action_name = 'index';
         $routes = explode('/', $_SERVER['REQUEST_URI']);
         if ( !empty($routes[1]) )
