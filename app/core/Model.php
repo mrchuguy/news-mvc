@@ -1,6 +1,6 @@
 <?php
 
-abstract class Model
+class Model
 {
     protected $db;
 
@@ -8,5 +8,5 @@ abstract class Model
         $this->db = new mysqli('localhost', 'root', '', 'r2d2-news');
     }
 
-    abstract public function get_data();
+    public function get_data(){}
 }
